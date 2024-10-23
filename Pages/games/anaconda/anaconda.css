@@ -1,0 +1,10 @@
+.cuadrado{
+    background-color: rgb(178, 87, 87);
+    border: solid 1px black;
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}

@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(255, 211, 90);
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 95vh;
+    border: 2px black solid;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    font-size: 21px;
+    text-align: center;
+}
+
+form input{
+    width: 230px;
+    height: 40px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.8s;
+}
+
+form input:focus{
+    background-color: aliceblue;
+    outline: none;
+}
+
+button{
+    border: solid 1px black;
+    border-radius: 10px;
+    height: 30px;
+    transition: 0.2s;
+}
+
+button:focus{
+    background-color: rgb(255, 183, 0);
+}
+
+.g{
+    position: absolute;
+    left: 20%;
+    top: 70%;
+}
+
+.h{
+    position: absolute;
+    right: 30%;
+    top: 20%;
+}
+
+.f{
+    position: absolute;
+    right: 10%;
+    bottom: 12%;
+}
+
+.invisible{
+    display: none;
+}
+

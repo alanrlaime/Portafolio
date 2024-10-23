@@ -1,0 +1,23 @@
+<header>
+    <h1>Login Registro nombre y contraseña</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae id non aliquam? Eligendi incidunt quod ipsam enim tempora omnis natus.</p>
+</header>
+<main>
+    <section>
+        <h2>Este es un centro de entrenamiento</h2>
+        <p>Los datos ingresados son experimentales por lo que, la privasidad es responsabilidad del consumidor.</p>
+    </section>
+    <div class="register">
+        <h2>Formulario de Inscripcion</h2>
+        <form method="get" action="./DB/login.php" id="formu">
+            <label for="">Nombre de Usuario:</label>
+            <input type="text" id="nom" name="nombre" placeholder="Nombre" required>
+            <label for="">Correo Electronico:</label>
+            <input type="email" id="em" name="email" placeholder="Correo Electronico" required>
+            <label for="">Password:</label>
+            <input type="password" name="passwd" id="con" minlength="8" placeholder="Contraseña" required>
+            <input type="submit" value="Registrarse">
+        </form>
+    </div>
+</main>
+<script src="./js/login.js"></script>

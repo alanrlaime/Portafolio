@@ -1,0 +1,118 @@
+.media{
+    background-color: red;
+}
+
+.shop{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.shop div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: solid black 1px;
+    transition: 0.4s;
+    gap: 10px;
+}
+
+.shop div:hover{
+    box-shadow: 4px 4px 12px 2px;
+}
+
+.shop div img{
+    width: 100%;
+    height: 400px;
+}
+
+.shop div .money-button{
+    background-color: black;
+    color: white;
+    width: 100%;
+    border: none;
+    height: 5%;
+    transition: 0.4s;
+}
+
+.shop div .money-button:hover{
+    color: black;
+    background-color: rgb(0, 145, 255);
+}
+
+.shop div .money-button:active{
+    background-color: rgb(132, 201, 223);
+}
+
+@media(max-width: 500px){
+    .shop{
+        grid-template-columns: 1fr;
+    }
+}
+
+.register{
+    padding: 50px 140px;
+    text-align: start;
+}
+
+.register h2{
+    text-align: center;
+}
+
+.register input{
+    margin: 12px 0;
+    padding: 10px 5px;
+    outline: 1px black solid;
+    width: 100%;
+}
+
+.register input:focus{
+    background-color: rgb(235, 235, 235);
+    transition: 0.5s;
+}
+
+@media(max-width: 500px){
+    .register{
+        padding: 10%;
+    }
+}
+
+.menugaler{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.menugaler .play{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.menugaler .play img{
+    min-width: 100px;
+}
+
+.menugaler .play div a{
+    background-color: rgb(0,145,255);
+    padding: 11px;
+    display: block;
+    margin: 20px 80px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border: 1px black solid;
+    transition: 0.3s;
+}
+
+.menugaler .play div a:hover{
+    background-color: rgb(135, 203, 243);
+    color: black;
+}
+
+@media(max-width: 500px){
+    .menugaler .play img{
+        height: 250px;
+    }
+}
